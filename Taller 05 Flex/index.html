@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+
+    <div class="container myContainer">
+        <h2>Propiedad: d-flex</h2>
+        <h4>Propiedad: flex-row</h4>
+        <div class="miFila d-flex">
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+        </div>
+
+        <hr>
+        <h4>Propiedad: justify-content-start</h4>
+        <div class="miFila d-flex justify-content-start">
+            <!-- justify-content-lg-start -->
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+        </div>
+
+        <hr>
+        <h4>Propiedad: justify-content-center</h4>
+        <div class="miFila d-flex justify-content-center">
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+        </div>
+
+        <hr>
+        <h4>Propiedad: justify-content-end</h4>
+        <div class="miFila d-flex justify-content-end">
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+        </div>
+
+        <hr>
+        <h4>Propiedad: justify-content-between</h4>
+        <div class="miFila d-flex justify-content-between">
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+        </div>
+        <hr>
+        <h4>Propiedad: justify-content-around</h4>
+        <div class="miFila d-flex justify-content-around">
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+        </div>
+
+        <hr>
+        <h4>Practica con Row <small><code>.row</code></small> </h4>
+        <div class="row justify-content-between">
+            <div class="col-3 miCol"> col-3 </div>
+            <div class="col-3 miCol"> col-3 </div>
+            <div class="col-3 miCol"> col-3 </div>
+
+        </div>
+
+        <hr>
+        <h4>Propiedad: flex-column</h4>
+        <div class="miFila d-flex flex-column">
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+            <div class="miColumna"> Soy un div </div>
+        </div>
+
+        <hr>
+        <hr>
+
+        <div class="d-flex justify-content-between mt-5">
+
+            <div class="miFila d-flex justify-content-center align-items-center caraDado shadow ">
+                <div class="punto"> </div>
+            </div>
+
+            <div class="miFila d-flex justify-content-between heightPropio caraDado shadow ">
+                <div class="punto align-self-start rounded-circle"></div>
+                <div class="punto align-self-end rounded-circle"> </div>
+            </div>
+
+            <div class="miFila d-flex justify-content-between heightPropio caraDado shadow ">
+                <div class="punto align-self-start rounded-circle"></div>
+                <div class="punto align-self-center rounded-circle "></div>
+                <div class="punto align-self-end "></div>
+            </div>
+        </div>
+        <br><br>
+        <div class="d-flex justify-content-between mt-5">
+
+            <div class="  ">
+                <div class=" d-flex justify-content-around flex-column heightPropio caraDado shadow">
+                    <div class="d-flex justify-content-between">
+                        <div class="punto "> </div>
+                        <div class="punto "></div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="punto"> </div>
+                        <div class="punto"> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

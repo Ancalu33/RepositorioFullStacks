@@ -1,0 +1,44 @@
+.myContainer {
+    margin-top: 50px;
+}
+
+.miFila {
+
+    background-color: rgb(226, 209, 209);
+}
+
+.miColumna {
+    border: 1px solid #ffffff;
+    background-color: tomato;    
+    padding: 20px;
+    box-shadow: ;
+}
+
+.miCol{
+    background-color: teal;
+    height: 40px;
+    color: white;
+    
+}
+
+.heightPropio{
+    height: 200px;
+    width: 200;
+}
+
+.caraDado{
+    height: 200px;
+    width: 200px;
+    padding: 1rem;
+    background-color: rgb(221, 221, 221);
+}
+
+.punto{
+
+    border-radius: 50%;
+    background-color: rgb(99, 99, 99);
+    height: 30px;
+    width: 30px;
+   
+}
+
